@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Jogo de Ciências</title>
+  <link href="css/css.css" rel="stylesheet">
+  <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+  <script type="text/javascript" src="js/js.js"></script>
+  <script type="text/javascript" src="js/jquery-collision.min.js"></script>
+</head>
+
+<body>
+  <div id="container">
+    <div id="titulo">
+    </div>
+    <div id="fundoGame">
+    </div>
+    <div id="info">
+    </div>
+    <div id="aluno">
+      <h2></h2>
+    </div>
+    <div id="placar">
+      <h2>Acertos: 0</h2>
+    </div>
+    <div id="placar1">
+      <h2>Erros: 0</h2>
+    </div>
+    <div id="energia"></div>
+
+
+    <div id="mensagemInicial" onclick="start()"></div>
+    <div id="mensagemScore" onclick="mostraScore()"></div>
+    <div id="mensagemFinal" onclick="reiniciaJogo()"></br>
+
+
+      <!-- /div> <!-- Fim da fundoGame -->
+
+    </div> <!-- Fim da container -->
+    <!-- Sons do Jogo <-->
+
+    <audio src="sons/video_game_land.wav" prelod="auto" id="musica"></audio>
+    <audio src="sons/laser.wav" prelod="auto" id="somRaio"></audio>
+    <audio src="sons/explosao.wav" prelod="auto" id="somExplosao"></audio>
+    <audio src="sons/mattix_game_over.wav" prelod="auto" id="somGameover2"></audio>
+    <audio src="sons/sky_loop.wav" prelod="auto" id="somGameover"></audio>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/js.js"></script>
+    <script src="js/jquery-collision.min.js"></script>
+</body>
+
+</html>

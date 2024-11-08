@@ -1,0 +1,41 @@
+/* KEYFRAMES */
+
+@keyframes leftToCenter{
+    0%{ transform: translateX(-500px); opacity: 0;}
+    100%{ transform: translateX(0px); opacity: 1; }
+}
+
+@keyframes bottomToCenter{
+    0%{ transform: translateY(200px); opacity: 0; }
+    100%{ transform: translateY(0px); opacity: 1; }
+}
+
+@keyframes topToCenter{
+    0%{ transform: translateY(-200px); opacity: 0; }
+    100%{ transform: translateY(0px); opacity: 1; }
+}
+
+@keyframes rightToCenter {
+    0%{ transform: translateX(800px); opacity: 0; }
+    100%{ transform: translateX(0px); opacity: 1; }
+}
+
+@keyframes centerToLeft{
+    0%{ transform: translateX(0px); opacity: 1;}
+    100%{ transform: translateX(-500px); opacity: 0; }
+}
+
+@keyframes centerToBottom{
+    0% { transform: translateY(0px); opacity: 1;}
+    100% { transform: translateY(200px); opacity: 0; }
+}
+
+@keyframes centerToRight {
+    0%{ transform: translateX(0px); opacity: 1; }
+    100%{ transform: translateX(800px); opacity: 0; }
+}
+
+@keyframes showAtWindow{
+    0%{ opacity: 0; }
+    100%{ opacity: 1; }
+}
